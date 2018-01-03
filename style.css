@@ -1,5 +1,30 @@
 /* Global Styles */
 
 body {
+  font-family: Helvetica, serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
 
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+header img {
+  display: flex;
+  height: 50px;
+  margin: 10px;
+}
+
+.nav header {
+  display: flex;
+  justify-content: space-around;
 }
